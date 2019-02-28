@@ -228,6 +228,6 @@ public class WeatherActivity extends AppCompatActivity {
 
 //        激活AutoUpdateService服务
         Intent intent = new Intent(this, AutoUpdateService.class);
-        startActivity(intent);
+        startService(intent);
     }
 }
